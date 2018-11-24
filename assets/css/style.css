@@ -1,0 +1,25 @@
+h3 {
+    font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+    font-family: 'Abhaya Libre', serif;
+}
+
+h5 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h4 {
+    font-family: 'Dancing Script', cursive;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
