@@ -1,3 +1,13 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
 h3 {
     font-family: 'Dancing Script', cursive;
 }
@@ -14,7 +24,32 @@ h4 {
     font-family: 'Dancing Script', cursive;
 }
 
-img {
+.brand-logo {
+    font-family: 'Dancing Script', cursive;
+}
+
+.nav-wrapper {
+    background-color: #9797FF;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #eee;
+}
+
+.jumbotron {
+    background-color: white;
+}
+
+.intro {
+    background-color: lavender;
+    width: 100%;
+}
+/* .jumbotext {
+    margin-bottom: 200px;
+} */
+
+.headshot {
     border-radius: 50%;
 }
 
@@ -23,3 +58,79 @@ img {
     max-width: 300px;
     height: auto;
 }
+
+footer,
+.footer-copyright,
+.push {
+    height: 100%;
+    text-align: center;
+  }
+
+.footer-copyright,
+  footer {
+    /* Box-model */
+    /* padding: 30px 0; */
+    background-color: #A389FF;
+    /* Positioning */
+    clear: both;
+    font-size: 12px;
+  }
+
+#footer-style {
+    background-color: #9797FF;
+}
+
+/* portfolio page */
+/* ================================ */
+.work {
+    /* Positioning */
+    position: relative;
+    float: left;
+  
+    /* Box-model */
+    width: 400px;
+    margin: 30px 0 45px;
+    /* overflow: auto; */
+    height: auto;
+    border: 1 solid black;
+  }
+  
+  .work:nth-child(even) {
+    margin-right: 50px;
+  }
+  
+  .work img {
+    /* Box-model */
+    width: 100%;
+  
+    /* Visual */
+    border: 1px solid black;
+  
+    /* Misc */
+    /* opacity: 0.8; */
+  }
+  
+  .work h3 {
+    /* Positioning */
+    position: absolute;
+    bottom: -100px;
+    width: 100%;
+  
+    /* Box-model */
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+  }
+
+  /* Contact Form */
+  /* ======================== */
+  #button-style {
+      margin-bottom: 100px;
+      background-color: #FF9173;
+  }
+
+  form {
+      margin-top: 50px;
+  }
+/* =============================== */
