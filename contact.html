@@ -25,50 +25,54 @@
 </head>
 
 <body>
+    <div class="wrapper">
 
-    <nav class="mb-3">
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo pl-3">Kari Gehrke</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <nav class="mb-3">
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo pl-3">Kari Gehrke</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container text-center" id="contactContain">
+            <h1>Contact</h1>
+
+            <div class="row">
+                <div class="col s12">
+                    <h4>Say Hello!</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12">
+                    <p><span class="contactText">Email:</span> kari.gehrke23@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12">
+                    <p><span class="contactText">GitHub:</span>
+                        <a id="contactLink" href="https://github.com/karigehrke">github.com/karigehrke</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12">
+                    <p><span class="contactText">LinkedIn:</span>
+                        <a id="contactLink"
+                            href="https://www.linkedin.com/in/kari-gehrke/">linkedin.com/in/kari-gehrke/</a>
+                    </p>
+                </div>
+            </div>
         </div>
-    </nav>
 
-    <div class="container">
-
-        <div class="row">
-
-            <form class="col s12" id="form_id" action="mailto:kari.gehrke23@gmail.com" method="post" enctype="text/plain">
-                <h4>Say Hello!</h4>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input id="name" type="text" class="validate">
-                        <label for="name">Name</label>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input id="email" type="email" class="validate">
-                        <label for="email">Email</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <textarea id="message" class="materialize-textarea"></textarea>
-                        <label for="message">Message</label>
-                    </div>
-                </div>
-                <button class="btn waves-effect waves-light submit-form" id="button-style" type="submit">Submit
-                </button>
-        </div>
-        </form>
     </div>
 
-    </div>
 
     <footer class="page-footer" id="footer-style">
         <div class="container">
@@ -108,3 +112,28 @@
 </body>
 
 </html>
+
+<!-- <div class="row">
+    <div class="input-field col s12">
+        <input id="name" type="text" class="validate">
+        <label for="name">Name</label>
+    </div>
+</div>
+
+<div class="row">
+    <div class="input-field col s12">
+        <input id="email" type="email" class="validate">
+        <label for="email">Email</label>
+    </div>
+</div>
+<div class="row">
+    <div class="input-field col s12">
+        <textarea id="message" class="materialize-textarea"></textarea>
+        <label for="message">Message</label>
+    </div>
+</div>
+<button class="btn waves-effect waves-light submit-form" id="button-style" type="submit">Submit
+</button>
+</div>
+</form>
+</div> -->

@@ -1,3 +1,8 @@
+html, 
+body {
+    height: 100%;
+  }
+
 body {
     display: flex;
     min-height: 100vh;
@@ -8,6 +13,10 @@ body {
     flex: 1 0 auto;
   }
 
+  .wrapper {
+    flex: 1 0 auto;
+  }
+  
 h3 {
     font-family: 'Dancing Script', cursive;
 }
@@ -37,6 +46,10 @@ a:hover {
     color: #eee;
 }
 
+#contactContain {
+    margin-bottom: 270px;
+}
+
 .jumbotron {
     background-color: white;
 }
@@ -59,17 +72,17 @@ a:hover {
     height: auto;
 }
 
-footer,
-.footer-copyright,
-.push {
-    height: 100%;
-    text-align: center;
+
+  .footer
+{
+    flex-shrink: 0;
   }
 
 .footer-copyright,
   footer {
     /* Box-model */
     /* padding: 30px 0; */
+    text-align: center;
     background-color: #A389FF;
     /* Positioning */
     clear: both;
@@ -78,6 +91,7 @@ footer,
 
 #footer-style {
     background-color: #9797FF;
+
 }
 
 /* portfolio page */
@@ -123,8 +137,24 @@ footer,
     line-height: 30px;
   }
 
+  #workSpace {
+      padding: 7px;
+  }
   /* Contact Form */
   /* ======================== */
+#contactLink {
+    text-decoration: none;
+    color: black;
+}
+
+#contactLink:hover {
+    color: #FF9173;
+}
+
+.contactText {
+    font-weight: bold;
+}
+
   #button-style {
       margin-bottom: 100px;
       background-color: #FF9173;
