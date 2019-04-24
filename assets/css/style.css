@@ -99,7 +99,7 @@ a:hover {
 .work {
     /* Positioning */
     position: relative;
-    float: left;
+    float: right;
   
     /* Box-model */
     width: 400px;
@@ -128,7 +128,7 @@ a:hover {
     /* Positioning */
     position: absolute;
     bottom: -100px;
-    width: 100%;
+    width: auto;
   
     /* Box-model */
     padding: 15px;
@@ -137,9 +137,42 @@ a:hover {
     line-height: 30px;
   }
 
-  #workSpace {
+  /* #workSpace {
       padding: 7px;
+  } */
+
+  .row,
+  .row > .col-sm-5  {
+    padding: 7px;
+    margin-right: 25px;
+    margin-left: 25px;
   }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .pieceTitle {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .gitText {
+    font-size: 14px;
+  }
+
+  #gitText {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+
+  #gitText:hover {
+    color: #FF9173;
+}
+
   /* Contact Form */
   /* ======================== */
 #contactLink {
@@ -164,3 +197,15 @@ a:hover {
       margin-top: 50px;
   }
 /* =============================== */
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
